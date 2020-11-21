@@ -1,5 +1,10 @@
 /* http://meyerweb.com/eric/tools/css/reset/
- v2.0 | 20110126
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+v2.0 | 20110126
 continues
 14 Learn to Code HTML & CSS
  License: none (public domain)
@@ -164,29 +169,23 @@ cursor: pointer;
  text-transform: uppercase;
  }
 
- .col-1-3 {
-     width: 33.33%;
- }
-     .col-2-3 {
-     width: 66.66%;
- }
+ 
     
- .col-1-3,
- .col-2-3 {
- display: inline-block;
- vertical-align: top;
- }
+ 
 
- .grid,
+ .gr id,
  .col-1-3,
  .col-2-3 {
+ display: block;
+ vertical-align: top;
  padding-left: 15px;
 padding-right: 15px;
  }
 
  .container,
  .grid {
- margin: 0 auto;
+     
+ margin: 10px auto;
  width: 1060px;
  }
  .container {
