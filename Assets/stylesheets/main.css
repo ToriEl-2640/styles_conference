@@ -141,6 +141,7 @@ cursor: pointer;
   .group:after {
   clear: both;
   }
+  /* test */
   .group {
   clear: both;
   *zoom: 1;
